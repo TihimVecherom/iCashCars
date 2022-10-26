@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20221017142638">
+	<link rel="stylesheet" href="css/style.min.css?_v=20221027015444">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,7 +15,19 @@
 <body>
 	<div class="wrapper">
 		<header class="header">
+			<div class="header__top-mb backToTop hide">
+				<div class="header__top-container">
+					<div class="header__top-logo">
+						<img src="img/header/logo-mb.svg" alt="logo">
+					</div>
+					<div class="header__top-bt">
+						<input class="input-top" placeholder="ENTER REG" type="text">
+						<a class="button-top" href="#">Go</a>
+					</div>
+				</div>
+			</div>
 			<div class="header__container">
+
 				<div class="header__content">
 					<div class="header__logo">
 						<a class="link-logo" href="home.html"></a>
@@ -24,24 +36,56 @@
 					<div class="header__menu menu">
 
 						<nav class="menu__body">
+
 							<ul class="menu__list">
-								<li class="menu__item"><a href="#" class="menu__link">How It works</a></li>
+								<div class="menu__logo">
+									<img src="img/header/logo-mb.svg" alt="logo">
+								</div>
+								<li class="menu__item"><a href="how-it-works.html" class="menu__link ">How It works</a></li>
 								<li class="menu__item"><a href="blog.html" class="menu__link">Blog</a></li>
-								<li class="menu__item"><a href="what.html" class="menu__link">Why choose us ?</a></li>
+								<li class="menu__item"><a href="why-shoose.html" class="menu__link">Why choose us ?</a></li>
 								<li class="menu__item"><a href="fag.html" class="menu__link">FAQ</a></li>
 								<li class="menu__item"><a href="contact-us.html" class="menu__link">Contact us</a></li>
-								<li class="menu__item "><a href="#" class="menu__link link-dropdown">more</a></li>
+								<li class="menu__item item-tabs-mb">
+									<div data-spollers class="spollers spollers-mb">
+										<div class="item-spollers">
+											<button type="button" data-spoller class="spollers__title title-spollers">More
+												<span></span></button>
+											<div class="spollers__body-mb spollers-body-mb">
+												<ul class="spollers__list-mb ">
+													<li class="spollers__item-mb"><a class="spollers__link-mb" href="#">Page
+															1</a></li>
+													<li class="spollers__item-mb"><a class="spollers__link-mb" href="#">Page 2</a></li>
+													<li class="spollers__item-mb"><a class="spollers__link-mb" href="#">Page 3</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="menu__item item-dropdown"><a href="#" class="menu__link link-dropdown">more</a>
+
+									<div class="menu__dropdown">
+										<ul class="menu__dropdown-wrapper">
+											<li class="menu__dropdown-title">mORE</li>
+											<li class="menu__dropdown-item"><a class="menu__dropdown-link" href="#">Link 1 </a></li>
+											<li class="menu__dropdown-item"><a class="menu__dropdown-link" href="#">Link 2 </a></li>
+											<li class="menu__dropdown-item"><a class="menu__dropdown-link" href="#">Link 3 </a></li>
+											<li class="menu__dropdown-item"><a class="menu__dropdown-link" href="#">Link 4 </a></li>
+										</ul>
+									</div>
+								</li>
 
 							</ul>
 							<div data-da=".menu__list, 991.98" class="menu__item item-button"><a href="#" class="menu__button">Log
 									in</a></div>
 						</nav>
 						<button type="button" class="menu__icon icon-menu"><span></span></button>
+
 					</div>
 
 				</div>
 			</div>
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js?_v=20221017142638"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js?_v=20221027015444"></script>
 		</header>
 		<main class="page">
 
@@ -395,7 +439,7 @@
 							</div>
 							<div class="sell-my__video">
 								<video id="video-item" muted autoplay loop class="video">
-									<source src="files/2918999.mp4" type="video/mp4">
+									<source src="files/1.mp4" type="video/mp4">
 								</video>
 								<button class="button-volume"></button>
 
@@ -419,17 +463,17 @@
 				<div class="footer__menu">
 					<ul class="footer__list">
 						<li class="footer__list-title">QUICK LINKS</li>
-						<li class="footer__item"><a class="footer__link" href="#">How it works ?</a></li>
-						<li class="footer__item"><a class="footer__link" href="#">Why choose us</a></li>
-						<li class="footer__item"><a class="footer__link" href="#">Cars sold</a></li>
+						<li class="footer__item"><a class="footer__link" href="how-it-works.html">How it works ?</a></li>
+						<li class="footer__item"><a class="footer__link" href="why-shoose.html">Why choose us</a></li>
+						<li class="footer__item"><a class="footer__link" href="sell-my-car.html">Sell my car</a></li>
 						<li class="footer__item"><a class="footer__link" href="#">Testimonials</a></li>
 					</ul>
 					<ul class="footer__list">
 						<li class="footer__list-title">ABOUT ICASHCARS</li>
-						<li class="footer__item"><a class="footer__link" href="#">Blog</a></li>
-						<li class="footer__item"><a class="footer__link" href="#">Why choose us</a></li>
-						<li class="footer__item"><a class="footer__link" href="#">FAQ</a></li>
-						<li class="footer__item"><a class="footer__link" href="#">Contact us</a></li>
+						<li class="footer__item"><a class="footer__link" href="blog.html">Blog</a></li>
+						<li class="footer__item"><a class="footer__link" href="why-shoose.html">Why choose us</a></li>
+						<li class="footer__item"><a class="footer__link" href="fag.html">FAQ</a></li>
+						<li class="footer__item"><a class="footer__link" href="contact-us.html">Contact us</a></li>
 					</ul>
 					<ul class="footer__list">
 						<li class="footer__list-title">ABOUT ICASHCARS</li>
@@ -449,7 +493,7 @@
 	</footer>
 	</div>
 
-	<script src="js/app.min.js?_v=20221017142638"></script>
+	<script src="js/app.min.js?_v=20221027015444"></script>
 
 </body>
 
